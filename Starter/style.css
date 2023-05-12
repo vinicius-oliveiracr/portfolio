@@ -1,0 +1,65 @@
+/* configuração da imagem de fundo */
+
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.png');
+    background-size:cover;
+    position:relative;
+}
+/* configuração do texto */
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageAboutPage
+{
+    width: 100%;
+}
+
+/* cada card com 280px de altura e apontador como seta do mouse */
+.servicesText.card {
+    height: 370px;
+    cursor: pointer;
+  }
+
+
+/* ícones com tamanho 36px e alinhados ao centro */
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* título dos cards ao centro */
+.card-title {
+    text-align: center;
+}
+
+
+/* ao serem selecionados, os ícones cards mudam de cor */
+.card:hover .servicesIcon {
+    color: seagreen;
+}
+
+
+/* ao ser selecionado, o card terá borda colorida */
+.servicesText:hover {
+    border: 2px solid darkblue;
+}
+
+.navbarScroll.navbarDark
+{
+    background-color: black;
+}
