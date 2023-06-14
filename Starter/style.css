@@ -55,7 +55,8 @@
 
 
 /* ao ser selecionado, o card terá borda colorida */
-.servicesText:hover {
+.servicesText:hover 
+{
     border: 2px solid darkblue;
 }
 
